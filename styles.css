@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body a {
@@ -131,7 +132,8 @@ button:hover {
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0px 0px 16px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
 }
 
 .uses-container-layout h1 {
@@ -184,8 +186,8 @@ button:hover {
 hr {
   border: 0;
   border-top: 1px solid #cccdcf;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 .clubs-container-layout {
