@@ -26,6 +26,7 @@ body {
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+  z-index: 100;
 }
 
 .logo {
@@ -191,30 +192,70 @@ hr {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 3rem;
   padding: 1rem;
 }
 
 .android-logo {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .clubs-layout {
   display: flex;
+  background: linear-gradient(to top, #2c3e50, #000);
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 16px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.15s;
 }
 
 .code-logo {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .bolt-logo {
-  width: 7rem;
-  height: 7rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .idea-logo {
-  width: 5rem;
-  height: 5rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+.white {
+  color: #fff;
+}
+
+.club-heading-inner {
+  font-size: 3rem;
+}
+
+.club-text {
+  font-size: 1.5rem;
+}
+
+.logo-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.clubs-layout:hover {
+  transform: scale(105%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .clubs-container-layout {
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .clubs-layout {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
