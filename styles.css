@@ -1,0 +1,124 @@
+html {
+  font-size: 62.5%;
+}
+
+body a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+body {
+  height: 200vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 10rem;
+  background-color: #e5e7e9;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  top: 0;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 20rem;
+  height: 5rem;
+}
+
+.btn-layout {
+  padding: 1rem;
+  border: 0;
+  border-radius: 1rem;
+  width: 10rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 435px) {
+  .btn-layout {
+    width: 5rem;
+  }
+  .logo {
+    width: 15rem;
+    height: 4rem;
+  }
+}
+
+button {
+  transition: 0.15s;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(105%);
+}
+
+.btn-primary {
+  background-color: rgb(30, 144, 255);
+}
+
+.btn-primary:hover {
+  background-color: rgba(30, 144, 255, 0.3);
+  border: 1px solid dodgerblue;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: url(images/daniel-olah-idednB9qCrA-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 0px 0px 16px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 800px) {
+  .grid-container {
+    flex-direction: column;
+  }
+}
+
+.grid-container h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.btn-extra {
+  margin-left: 1rem;
+  width: 12rem;
+}
+
+.grid-container-btn {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .grid-container-btn {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .grid-container h1 {
+    text-align: center;
+  }
+
+  .btn-extra {
+    margin: 0px;
+    margin-top: 1rem;
+  }
+  .btn-extra-one {
+    width: 12rem;
+    margin-top: 1rem;
+  }
+}
