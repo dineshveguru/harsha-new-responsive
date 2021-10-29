@@ -161,7 +161,7 @@ button:hover {
   margin-left: 1.5rem;
 }
 
-hr {
+.uses-container-layout hr {
   border: 0;
   border-top: 1px solid #cccdcf;
 }
@@ -173,4 +173,48 @@ hr {
   .extra-margin {
     margin-right: 4rem;
   }
+}
+
+.clubs-heading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #cccdcf;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.clubs-container-layout {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.android-logo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.clubs-layout {
+  display: flex;
+}
+
+.code-logo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.bolt-logo {
+  width: 7rem;
+  height: 7rem;
+}
+
+.idea-logo {
+  width: 5rem;
+  height: 5rem;
 }
