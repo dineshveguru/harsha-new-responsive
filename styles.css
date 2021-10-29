@@ -90,7 +90,7 @@ button:hover {
 
 .grid-container h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .btn-extra {
@@ -120,5 +120,57 @@ button:hover {
   .btn-extra-one {
     width: 12rem;
     margin-top: 1rem;
+  }
+}
+
+.uses-container-layout {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 16px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+.uses-container-layout h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.uses-container-layout p {
+  font-size: 1.2rem;
+  color: #8d8d8d;
+  font-size: 1.5rem;
+}
+
+.uses-logo {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  margin-top: 0.4rem;
+}
+
+.img-layout {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.uses-para-layout {
+  margin-left: 1.5rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #cccdcf;
+}
+
+@media screen and (max-width: 450px) {
+  .img-layout {
+    justify-content: center;
+  }
+  .extra-margin {
+    margin-right: 4rem;
   }
 }
